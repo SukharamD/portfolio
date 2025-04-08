@@ -101,21 +101,38 @@ body{
 }
 
 .home-sci{
+    display: flex;
     padding: 15px 0px 0px 0px;
+    align-items: center;
 }
 
-.home-sci a{
+#resume{
+    border: 2px solid #0ef;
+    border-radius: 25px;
+    color: #0ef;
+    padding: 8px;
+    background-color:#0c283b;
+    font-weight: 600;
+}
+
+.home-sci #linked{
     border: 2px solid #0ef;
     border-radius: 25px;
     color: #0ef;
     font-size: 30px;
     padding: 5px;
     font-weight: 600;
+    margin: 0px 15px 0px 0px;
     animation:slideLeft 1s ease forwards;
     animation-delay: calc(.2s*var);
 }
 
-.home-sci a:hover{
+.home-sci #linked:hover{
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0px 0px 20px #0ef;
+}
+.home-sci #resume:hover{
     background: #0ef;
     color: #081b29;
     box-shadow: 0px 0px 20px #0ef;
