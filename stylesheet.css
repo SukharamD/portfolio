@@ -243,8 +243,7 @@ body{
     font-weight: 13px;
     border-right: 10px;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px #012290f7,
-                1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 40px #000000f7;
 }
 
 .skills-list div i{
